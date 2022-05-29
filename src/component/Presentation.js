@@ -6,35 +6,35 @@ import fafasquad1 from '../img/fafasquad1.jpg'
 
 function Presentation() {
     return (
-        <div className='flex   '>
-
-
-   <div className='w-full place-self-center'>
-       <div className='  content-center'>
-       <h1 className='text-3xl font-medium'> HustleGang vous presente sa marque de vetement street-wear </h1>
-       <a className='text-2xl font-mono italic'>Commandez dès maintenant sur notre site ecommerce street wear livraison rapide. </a>
-       <a className='text-2xl font-mono italic '> Retrouvez nous également sur youtube ainsi que toute les plateforme de streaming du nouveaux a venir </a>
-       <button className=' flex bg-blue-500 rounded-full w-32 h-12 font-bold items-center justify-center '>Commandez </button>
-       </div>
-   </div>
+        
 
 
 
+<section class="text-gray-600 body-font">
 
-            <div className="w-full  grid grid-rows-3 grid-flow-col gap-4 border-black border-2 border-double ">
-  <div className="row-span-3 border-black border-2 border-double ..."> <img src={fafasquad1} className=" "/></div>
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> HustleGang vous presente sa marque de vetement street-wear 
+        
+      </h1>
+      <p class="mb-8 leading-relaxed">Commandez dès maintenant sur notre site ecommerce street wear livraison rapide.Retrouvez nous également sur youtube ainsi que toute les plateforme de streaming du nouveaux a venir</p>
 
-  <div className="col-span-2  place-self-center   ...">
-      <h1 className='text-5xl font-bold font-serif   '>HustleGang StreetWear</h1>
+
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
       </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src={fafasquad1}/>
+    </div>
+  </div>
+</section>
 
-  <div className="row-span-2 col-span-2 border-black border-2 border-double..."> <img src={fafasquad} className="h-64 "/></div>
-</div>
 
 
 
-
-        </div>
     )
 }
 

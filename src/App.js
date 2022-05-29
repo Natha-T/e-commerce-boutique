@@ -2,12 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import Home from './page/Home';
 import { db } from './Firebase';
-import { collection, doc, getDocs, onSnapshot, snapshotEqual } from 'firebase/firestore';
+import { collection, getDocs } from 'firebase/firestore';
 import Footer from './component/Footer';
-import productSlice from './redux/productSlice';
-
-import productReducer from './redux/productSlice';
-import { useSelector, useDispatch } from 'react-redux'
 
 
 
@@ -15,7 +11,6 @@ import { useSelector, useDispatch } from 'react-redux'
 function App() {
 
 
-  const dispatch = useDispatch()
 
  const [product, setProduct] = useState([]);
 
@@ -57,7 +52,6 @@ useEffect(() => {
 
 
 
-    <Footer/>
 
     </div>
 

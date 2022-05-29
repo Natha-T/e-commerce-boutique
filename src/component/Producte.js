@@ -16,11 +16,11 @@ function Producte(dataa) {
 
     return (
   
-        <div className='flex '>
-          <h1>{data.name}drsgdfgdfgg</h1>
+        <div className=' mt-36 flex flex-wrap mx-auto justify-center '>
+         
  {data.map ((user) => {
   return( 
-   <div  class="   shadow-md rounded-3xl py-3 m-1   transform duration-500 hover:-translate-y-1 cursor-pointer">
+   <div  class="   shadow-md rounded-3xl p-2 mx-1 my-3   transform duration-500 hover:-translate-y-1 cursor-pointer">
     <div class="overflow-x-hidden rounded-2xl relative">
       <img class="h-40 rounded-2xl w-full object-cover" src={user.url}/>
       <button  class="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group">
