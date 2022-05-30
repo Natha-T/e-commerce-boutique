@@ -1,4 +1,5 @@
 import React from 'react'
+import Feature from '../component/Feature';
 import Footer from '../component/Footer';
 import Navbar from '../component/Navbar';
 import Presentation from '../component/Presentation';
@@ -14,6 +15,7 @@ function Home(product) {
             <Navbar/>
             <Presentation/>
              <Producte  dataa={data}/>
+             <Feature/>
              <Footer/>
         </div>
     )

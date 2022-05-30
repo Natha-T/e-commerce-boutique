@@ -9,6 +9,7 @@ module.exports = {
    "./src/component/Footer.js",
    "./src/component/Presentation.js",
    "./src/component/Producte.js",
+   "./src/component/Feature.js",
    "./component/Bienvenue.js",
    "./component/Footer.js",
    "./component/Transaction.js",

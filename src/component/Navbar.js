@@ -6,9 +6,9 @@ import { FaShoppingCart, FaUser } from 'react-icons/fa';
 
 function Navbar() {
     return (
-        <div className="flex fixed justify-between bg-gray-700  ...">
+        <div className="flex fixed justify-between w-full bg-gradient-to-r from-gray-400 via-slate-700 to-sky-500 ...">
 
-        <div className="flex   h-14 ...">
+        <div className="flex    h-14 ...">
           <img src={hustlegang}  className='   rounded-full  lg:w-16 lg:h-14' />
         </div>
 
@@ -27,7 +27,7 @@ function Navbar() {
        <FaUser className='text-2xl'/>
        <FaShoppingCart className='text-2xl'/>
         </div>
-
+        
       </div>
     )
 }
