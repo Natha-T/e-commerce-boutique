@@ -30,8 +30,8 @@ function Producte(dataa) {
    <div  className="   shadow-md rounded-3xl p-2 mx-1 my-3   transform duration-500 hover:-translate-y-1 cursor-pointer">
     <div className="overflow-x-hidden rounded-2xl relative">
       <img className="h-40 rounded-2xl w-full object-cover" src={user.url}/>
-      <button  className="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group">
-      <FaShoppingCart className='text-2xl h-6 w-6 group-hover:opacity-100 opacity-70'/>
+      <button href='https://buy.stripe.com/test_6oEbMseMn7KH08g000' className="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group">
+      <FaShoppingCart  className='text-2xl h-6 w-6 group-hover:opacity-100 opacity-70'/>
       </button>
     </div>
     <div className="mt-4 pl-2 mb-2 flex justify-between ">

@@ -15,7 +15,7 @@ function Home(product) {
             <Navbar/>
             <Presentation/>
              <Producte  dataa={data}/>
-             <Feature/>
+        
              <Footer/>
         </div>
     )
